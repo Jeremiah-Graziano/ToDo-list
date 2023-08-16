@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
-}
+body {
+                font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans Ethiopic', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Roboto', sans-serif;
+            }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+            body > div {
+                width: 500px;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid #e0e0e0;
+                border-radius: 15px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+            }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+            h3 {
+                margin-top: 0;
+                font-size: 22px;
+                text-transform: capitalize;
+                font-weight: bolder;
+            }
 
-.App-link {
-  color: #61dafb;
-}
+            h4 {
+                margin: 0;
+                text-transform: capitalize;
+                color: #949494;
+            }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+            h2 {
+                margin: 0;
+                padding-bottom: 20px;
+                font-size: 32px;
+                border-bottom: 1px solid #f6f6f6;
+                text-transform: capitalize;
+            }
+
+            ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            li {
+                margin-bottom: 10px;
+                padding: 0 8px;
+                line-height: 50px;
+                text-transform: capitalize;
+                background-color:  #f6f6f6;
+                border-radius: 10px;
+            }
+
+            input[type="checkbox"] {
+                margin-right: 8px;
+            }
+            
+            input[type="checkbox"]:checked + label {
+                text-decoration: line-through;
+            }
+
+            hr {
+                margin: 20px 0;
+                border: 1px solid #f6f6f6;
+            }
+
+            textarea {
+                padding: 12px;
+                width: 100%;
+                border-radius: 10px;
+                border: none;
+                background-color: #f1f1f1;
+                display: block;
+                box-sizing: border-box;
+            }
+
+            .clearList {
+                margin-top: 20px;
+                width: 100px;
+                line-height: 35px;
+                text-transform: capitalize;
+                color: red;
+                border: none;
+                background-color: lightgray;
+                border-radius: 10px;
+            }
+
+            #clear-item {
+                float: right;
+                margin-top: 15px;
+            }
